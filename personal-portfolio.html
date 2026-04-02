@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio</title>
+  <meta name="description" content="Sito portfolio personale moderno con progetti, presentazione personale, CV e contatti." />
+  <meta property="og:title" content="Personal Portfolio" />
+  <meta property="og:description" content="Portfolio personale moderno, elegante e animato." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&f[]=boska@400,500,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#contenuto">Vai al contenuto</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand" aria-label="Vai alla home del portfolio">
+        <svg class="logo" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M12 48V16L24.5 34L32 21L39.5 34L52 16V48" stroke="currentColor" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>Antonio Morace</span>
+      </a>
+
+      <nav class="nav" aria-label="Navigazione principale">
+        <a href="#about">Chi sono</a>
+        <a href="#projects">Progetti</a>
+        <a href="#cv">CV</a>
+        <a href="#contact">Contatti</a>
+        <button class="theme-toggle" data-theme-toggle aria-label="Cambia tema">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+          </svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenuto">
+    <section class="hero wide" id="home">
+      <div class="hero-grid">
+        <div class="reveal is-visible">
+          <div class="eyebrow">Antonio Morace · Informatica</div>
+          <h1>Costruisco idee digitali con metodo.</h1>
+        </div>
+
+        <div class="hero-copy reveal is-visible">
+          <p>
+            Mi chiamo Antonio Morace, studio Informatica e sono uno studente fuorisede a Torino.
+            Porto avanti il mio percorso all’Università degli Studi di Torino, nel Dipartimento di Informatica,
+            con l’obiettivo di trasformare lo studio in progetti reali e ben curati.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">Vedi i progetti</a>
+            <a class="btn btn-secondary" href="#cv">Apri il CV</a>
+          </div>
+
+          <aside class="hero-panel grain" aria-label="Pannello introduttivo portfolio">
+            <div class="hero-card-top">
+              <span>Portfolio</span>
+              <span>2026</span>
+            </div>
+
+            <div class="metric-stack">
+              <div class="metric">
+                <strong>01</strong>
+                <span>Mi chiamo Antonio Morace, studio Informatica e sono uno studente fuorisede a Torino.</span>
+              </div>
+              <div class="metric">
+                <strong>02</strong>
+                <span>Nel mio GitHub raccolgo progetti reali, pubblicati e in continua evoluzione.</span>
+              </div>
+              <div class="metric">
+                <strong>03</strong>
+                <span>Questo portfolio è il punto di partenza del mio percorso professionale.</span>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="section-label">Profilo</div>
+            <h2>Chi sono, con chiarezza.</h2>
+          </div>
+          <p>
+            Questa sezione racconta il mio percorso e il mio approccio: da quando ho iniziato a studiare informatica
+            alle superiori fino al percorso universitario che sto portando avanti oggi a Torino.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <article class="panel reveal">
+            <h3>Presentazione</h3>
+            <p>
+              Sono Antonio Morace e studio informatica con continuità già dagli anni delle scuole superiori.
+              Nel tempo ho sviluppato un interesse concreto per lo sviluppo software, per le interfacce ben progettate
+              e per i progetti che uniscono logica, utilità e cura dei dettagli.
+            </p>
+            <p>
+              Attualmente continuo il mio percorso di studi presso l’Università degli Studi di Torino,
+              nel Dipartimento di Informatica. Sto costruendo le mie competenze passo dopo passo,
+              cercando di trasformare ogni progetto in un livello superiore di maturità tecnica e professionale.
+            </p>
+            <div class="signature">
+              <span class="signature-mark">M</span>
+              <span>Metodo, costanza, crescita continua.</span>
+            </div>
+          </article>
+
+          <aside class="panel reveal">
+            <h3>Punti chiave</h3>
+            <div class="mini-list">
+              <div class="mini-item">
+                <strong>Approccio</strong>
+                <p>Curioso, costante e orientato al miglioramento.</p>
+              </div>
+              <div class="mini-item">
+                <strong>Focus</strong>
+                <p>Sviluppo web, logica applicativa e progetti concreti.</p>
+              </div>
+              <div class="mini-item">
+                <strong>Obiettivo</strong>
+                <p>Crescere come sviluppatore costruendo progetti seri, utili e ben rifiniti.</p>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="section-label">Portfolio</div>
+            <h2>I miei progetti iniziano già a parlare.</h2>
+          </div>
+          <p>
+            Nel mio GitHub raccolgo i progetti che mi hanno fatto crescere di più:
+            un gioco Snake utilizzabile sia tramite sito web sia in locale;
+            un progetto in corso dedicato all’analisi dei dati nel mondo della Formula 1;
+            un sito web creato per una pizzeria insieme a un altro ragazzo;
+            e un sito per un’azienda di movimento terra attualmente ancora in sviluppo.
+          </p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card large reveal">
+            <div class="project-meta"><span>Featured case</span><span>Web app</span></div>
+            <div>
+              <h3>Analisi dati per Formula 1</h3>
+              <p>
+                Progetto in scrittura dedicato all’analisi dei dati applicata alla Formula 1,
+                pensato per unire passione, osservazione dei dati e capacità di trasformare numeri in insight leggibili.
+              </p>
+            </div>
+            <div class="tags">
+              <span class="tag">Data Analysis</span>
+              <span class="tag">Formula 1</span>
+              <span class="tag">Work in progress</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-meta"><span>Project 02</span><span>Website</span></div>
+            <div>
+              <h3>Snake web con API</h3>
+              <p>
+                Un progetto snake giocabile anche sul web, costruito con una logica chiara e con integrazione API,
+                utile per mostrare sia la parte tecnica sia la capacità di pubblicare qualcosa di fruibile.
+              </p>
+            </div>
+            <div class="tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">API</span>
+              <span class="tag">Web Game</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-meta"><span>Project 03</span><span>Product</span></div>
+            <div>
+              <h3>Sito web per pizzeria</h3>
+              <p>
+                Sito web creato insieme a un altro ragazzo per una pizzeria:
+                un progetto utile per confrontarsi con un’attività reale,
+                con esigenze concrete di presenza online e comunicazione chiara.
+              </p>
+            </div>
+            <div class="tags">
+              <span class="tag">Restaurant Website</span>
+              <span class="tag">Team Work</span>
+              <span class="tag">Real Client</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="cv">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="section-label">Curriculum</div>
+            <h2>Una base ordinata per il mio percorso.</h2>
+          </div>
+          <p>
+            Questa sezione ora riassume il mio percorso di studio e i primi lavori concreti.
+            In seguito la completeremo meglio con date precise, tecnologie, risultati e un CV PDF definitivo.
+          </p>
+        </div>
+
+        <div class="cv-grid">
+          <div class="panel reveal">
+            <h3>Percorso</h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <strong>2025 — Oggi</strong>
+                <div>
+                  <h3>Studente di Informatica</h3>
+                  <p>
+                    Percorso universitario in corso presso l’Università degli Studi di Torino,
+                    Dipartimento di Informatica, con l’obiettivo di consolidare basi teoriche
+                    e competenze pratiche nello sviluppo software.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <strong>2023 — 2025</strong>
+                <div>
+                  <h3>Progetti personali e applicativi</h3>
+                  <p>
+                    Snake per il web con API, sito per pizzeria realizzato in collaborazione,
+                    progetto Formula 1 in corso e sito per azienda di movimento terra ancora in sviluppo:
+                    esperienze diverse che mi stanno aiutando a crescere sia nella tecnica sia nel metodo.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <strong>Formazione</strong>
+                <div>
+                  <h3>Scuole superiori e continuità nello studio</h3>
+                  <p>
+                    Ho iniziato a studiare informatica già durante le superiori e ho scelto di continuare su questa strada
+                    all’università, trasformando la passione iniziale in un percorso strutturato.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="cv-actions">
+              <a class="btn btn-primary" href="#">Scarica CV PDF</a>
+              <a class="btn btn-secondary" href="#contact">Parliamone</a>
+            </div>
+          </div>
+
+          <aside class="panel reveal">
+            <h3>Competenze</h3>
+            <div class="mini-list">
+              <div class="mini-item">
+                <strong>Frontend</strong>
+                <p>Conoscenza del C, HTML, CSS e JavaScript, con una base concreta costruita attraverso studio e pratica.</p>
+              </div>
+              <div class="mini-item">
+                <strong>Backend</strong>
+                <p>Sviluppo di piccoli progetti web, logica di programmazione e capacità di collegare teoria e pratica.</p>
+              </div>
+              <div class="mini-item">
+                <strong>Metodo</strong>
+                <p>Costanza nello studio, determinazione e tanta voglia di fare, crescere e migliorare progetto dopo progetto.</p>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="contact-shell reveal">
+          <div>
+            <div class="section-label">Contatti</div>
+            <h2 style="font-family: var(--font-display); font-size: var(--text-3xl); letter-spacing:-.04em; max-width:10ch;">
+              Sto costruendo il mio percorso, progetto dopo progetto.
+            </h2>
+            <p style="margin-top: var(--space-5);">
+              Questo portfolio è il punto di partenza del mio percorso professionale:
+              qui tengo allineati i miei progetti, il mio CV e i contatti,
+              così chi vuole conoscermi può vedere subito come studio, cosa costruisco
+              e in che direzione sto crescendo.
+            </p>
+          </div>
+
+          <div class="contact-list" aria-label="Metodi di contatto">
+            <a class="contact-link" href="mailto:antonio.morace@iclou.com">
+              <span>Email</span>
+              <strong>antonio.morace@iclou.com</strong>
+            </a>
+
+            <a class="contact-link" href="https://github.com/moris99311" target="_blank" rel="noopener noreferrer">
+              <span>GitHub</span>
+              <strong>@moris99311</strong>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      Antonio Morace — portfolio personale in evoluzione.
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      const root = document.documentElement;
+      const toggle = document.querySelector('[data-theme-toggle]');
+      let theme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      root.setAttribute('data-theme', theme);
+
+      const updateIcon = () => {
+        if (!toggle) return;
+        toggle.setAttribute('aria-label', theme === 'dark' ? 'Passa al tema chiaro' : 'Passa al tema scuro');
+        toggle.innerHTML = theme === 'dark'
+          ? '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>'
+          : '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
+      };
+
+      updateIcon();
+
+      toggle?.addEventListener('click', () => {
+        theme = theme === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', theme);
+        updateIcon();
+      });
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) entry.target.classList.add('is-visible');
+        });
+      }, { threshold: 0.18 });
+
+      document.querySelectorAll('.reveal:not(.is-visible)').forEach(el => observer.observe(el));
+
+      const header = document.querySelector('.site-header');
+      let lastY = window.scrollY;
+
+      window.addEventListener('scroll', () => {
+        const currentY = window.scrollY;
+        header.style.boxShadow = currentY > 20 ? 'var(--shadow-sm)' : 'none';
+        header.style.transform = currentY > lastY && currentY > 160 ? 'translateY(-100%)' : 'translateY(0)';
+        lastY = currentY;
+      }, { passive: true });
+    })();
+  </script>
+</body>
+</html>
